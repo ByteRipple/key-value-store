@@ -8,6 +8,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/core-lib" />
+            <option value="$PROJECT_DIR$/terminal-handler" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -2,14 +2,13 @@ plugins {
     kotlin("jvm") version "1.9.23"
 }
 
-group = "org.example"
-version = "1.0-SNAPSHOT"
-
 repositories {
     mavenCentral()
 }
 
 dependencies {
+    testImplementation("org.junit.jupiter:junit-jupiter-params:5.10.3")
+    implementation(project(":core-lib"))
     testImplementation(kotlin("test"))
 }
 
